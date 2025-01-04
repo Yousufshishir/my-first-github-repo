@@ -64,7 +64,7 @@ transition: all 0.3s ease-in-out;
 
 .description{
     text-align: center;
-    margin: 20px;
+    margin: auto;
     font-size: 25px;
     font-family:monospace;
     background-color: rgb(152, 147, 103);
@@ -81,5 +81,40 @@ font: bold;
     }
     
 
+    @media screen and (min-width:1023px) {
+        .container{
+            max-width: 1200px;
+            width: 90%;
+        }
+    }
 
 
+
+
+@media screen and (max-width:1024px) {
+    
+.image{width: 200px}
+#welcome{
+font-size:35px ;
+width: 90%;
+}
+.description{font-size:24px ;}
+.container{width: 90%;}
+}
+
+
+
+@media screen and (max-width:720px) {
+    .image{width:180px;}
+    .container{width: 90%;flex-direction: column;}
+    #welcome{font-size: 32px;width: 90%;margin: 10px auto;flex-direction: column;}
+    .description{font-size: 20px;}
+}
+
+
+
+@media screen and (max-width:480px) {
+    .image{width: 150px;}
+    .container{width:90% ;flex-direction: column;}
+    #welcome{font-size: 25px;width: 95%;margin:10px auto;}
+}
