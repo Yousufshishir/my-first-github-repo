@@ -85,8 +85,8 @@ font: bold;
         .container{
             max-width: 1200px;
             width: 90%;
-        }
-    #welcome{padding: 1px;margin: 10px auto;}
+        flex-direction: row;}
+    #welcome{padding: 1px;}
     }
 
 
