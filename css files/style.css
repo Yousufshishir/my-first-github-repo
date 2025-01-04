@@ -1,3 +1,40 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(to right, #134e5e, #71B280);
+}
+
+
+#welcome{
+    background-color: rgb(195, 209, 204);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 5px;
+        box-shadow: 10px 10px 10px 2px;
+        border-radius: 90px;
+        margin-top:  25px ;
+        margin-left: 410px ;
+        margin-right: 410px ;
+    border: 2px solid black;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.3s ease;
+    
+    }
+    
+    
+    
+         #welcome:hover {
+            transform:scale(1.01) translateY(-15px);
+            box-shadow: 10px 20px 20px rgb(0, 0, 0);
+            cursor: pointer;
+        } 
+
+
 .container {
     display: flex;
     align-items: center;
@@ -12,46 +49,37 @@
 
 width: 250px;
 border-radius: 50%;
-border: 2px  solid rgb(19, 17, 19);
-padding: 5px ;
-box-shadow: 0px 0px 10px 2px ;
+border: 3px  solid ;
+padding: 0px ;
+box-shadow: 0px 0px 10px  ;
+transition: all 0.3s ease-in-out;
 }
 
+.image:hover{
+    transform: scale(1.1) translateY(-15px);
+     box-shadow: (0px 10px 15px)
+}
 
 
 
 .description{
     text-align: center;
-    color: rgb(57, 57, 97);
-    flex-grow: 2px;
     margin: 20px;
-    font-size: 30px;
-    font-family:fantasy
+    font-size: 25px;
+    font-family:monospace;
+    background-color: rgb(152, 147, 103);
+    padding: 35px;
+    border-radius: 55px;
+    transition: all 0.3s ease-in-out;
+    border: 4px solid rgb(19, 17, 19);  
+font: bold;
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgba(102, 66, 173, 0.748);
- 
-}
-
-
-#welcome{
-background-color: rgb(195, 209, 204);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 5px;
-    box-shadow: 10px 10px 10px 2px;
-    border-radius: 90px;
-    margin-top:  25px ;
-    margin-left: 410px ;
-    margin-right: 410px ;
-border: 2px solid black;
-font-size: 50px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-}
+.description:hover{
+    transform:scale(1.01) translatey(-15px);
+    box-shadow: 0px 10px 15px rgb(7, 4, 4);
+    }
+    
 
 
 
