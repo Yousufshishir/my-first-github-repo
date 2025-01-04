@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin:  auto;
+    padding: 30px;
+}
+
+.image{
+
+width: 250px;
+border-radius: 50%;
+border: 2px  solid rgb(19, 17, 19);
+padding: 5px ;
+box-shadow: 0px 0px 10px 2px ;
+}
+
+
+
+
+.description{
+    text-align: center;
+    color: rgb(57, 57, 97);
+    flex-grow: 2px;
+    margin: 20px;
+    font-size: 30px;
+    font-family:fantasy
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(102, 66, 173, 0.748);
+ 
+}
+
+
+#welcome{
+background-color: rgb(195, 209, 204);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    box-shadow: 10px 10px 10px 2px;
+    border-radius: 90px;
+    margin-top:  25px ;
+    margin-left: 410px ;
+    margin-right: 410px ;
+border: 2px solid black;
+font-size: 50px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
