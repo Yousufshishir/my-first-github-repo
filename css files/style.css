@@ -46,7 +46,6 @@ body {
 }
 
 .image{
-
 width: 250px;
 border-radius: 50%;
 border: 3px  solid ;
@@ -64,7 +63,7 @@ transition: all 0.3s ease-in-out;
 
 .description{
     text-align: center;
-    margin: auto;
+    margin: 20px;
     font-size: 25px;
     font-family:monospace;
     background-color: rgb(152, 147, 103);
@@ -85,8 +84,10 @@ font: bold;
         .container{
             max-width: 1200px;
             width: 90%;
-        flex-direction: row;}
-    #welcome{padding: 1px;}
+        /* flex-direction: row; */
+    }
+    #welcome{padding: 1px;
+}
     }
 
 
